@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-graynav: #f5f5f5;
+  --color-graySoft: #f0f0f1;
+  --color-grayMid: #e0e0e2;
+  --color-grayMedium: #a1a3a8;
+  --color-graydark: #424750;
+  --color-graymidark: #62666d;
+  --color-grayslate: #3f4064;
+  --color-violetPrimary: #7f53ef;
+  --color-digikalaPrimary: #ed1944;
+  --color-digikalaPrimarysec: #ef4056;
+  --color-digikalaOffers: #d22c4e;
+
+  --color-amberdark: #f57f17;
+  --color-amberlight: #fef6ef;
+
+  --spacing-iconbase: 1.375rem;
+
+  --border-08: 0.8px;
+}
+
+.headerswipper .swiper-pagination {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(207, 207, 207, 0.4);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  border-radius: 999px;
+  @media (min-width: 1024px) {
+    background-color: transparent;
+    border: none;
+  }
+  .swiper-pagination-bullet {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+    margin-left: 2px;
+  }
+  .swiper-pagination-bullet-active {
+    width: 1rem;
+    background-color: white;
+  }
+}
