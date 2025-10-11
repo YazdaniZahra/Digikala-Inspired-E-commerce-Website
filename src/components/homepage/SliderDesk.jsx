@@ -5,15 +5,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function SliderDesk() {
-  // const [slides, setSlides] = useState([]);
-  // useEffect(() => {
-  //   fetch("/api/v1/")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setSlides(data?.data?.header_banners || []);
-  //     });
-  // }, []);
-
   const fetchDeskSliderItems = async () => {
     const response = await fetch("/api/v1/");
     if (!response.ok) throw new Error("error fetching data");
