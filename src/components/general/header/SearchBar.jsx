@@ -1,6 +1,6 @@
-import ImageSearch from "@/assets/icons/ImageSearch";
-import SearchIcon from "@/assets/icons/SearchIcon";
-import PersianDigikalaLogo from "@/assets/Logo/PersianDigikalaLogo";
+import ImageSearch from "@/components/icons/ImageSearch";
+import SearchIcon from "@/components/icons/SearchIcon";
+import PersianDigikalaLogo from "@/components/icons/PersianDigikalaLogo";
 
 export default function SearchBar({ className = "" }) {
   return (

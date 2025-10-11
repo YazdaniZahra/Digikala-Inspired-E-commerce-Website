@@ -1,4 +1,4 @@
-import LocationIcon from "@/assets/icons/LocationIcon";
+import LocationIcon from "@/components/icons/LocationIcon";
 import React from "react";
 
 export default function LocationSelectorLg() {

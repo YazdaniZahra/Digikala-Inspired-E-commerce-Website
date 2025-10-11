@@ -1,4 +1,4 @@
-import AuthIcon from "@/assets/icons/AuthIcon";
+import AuthIcon from "@/components/icons/AuthIcon";
 export default function AuthButton({ className = "" }) {
   return (
     <button

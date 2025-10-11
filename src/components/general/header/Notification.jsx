@@ -1,4 +1,4 @@
-import RingIcon from "@/assets/icons/RingIcon";
+import RingIcon from "@/components/icons/RingIcon";
 
 export default function Notification() {
   return (

@@ -1,8 +1,8 @@
-import units from "@/assets/images/NavBar/units.png";
-import digikala from "@/assets/images/NavBar/digikala.png";
-import supermarket from "@/assets/images/NavBar/supermarket.png";
-import supermarket45 from "@/assets/images/NavBar/supermarket45.png";
-import gold from "@/assets/images/NavBar/gold.png";
+import units from "@/assets/images/units.png";
+import digikala from "@/assets/images/digikala.png";
+import supermarket from "@/assets/images/supermarket.png";
+import supermarket45 from "@/assets/images/supermarket45.png";
+import gold from "@/assets/images/gold.png";
 
 export const navItems = [
   { id: 1, image: units },

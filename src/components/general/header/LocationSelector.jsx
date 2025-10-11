@@ -1,5 +1,5 @@
-import LocationIcon from "@/assets/icons/LocationIcon";
-import ArrowIcon from "@/assets/icons/ArrowIcon";
+import LocationIcon from "@/components/icons/LocationIcon";
+import ArrowIcon from "@/components/icons/ArrowIcon";
 
 export default function LocationSelector() {
   return (

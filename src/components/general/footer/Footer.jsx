@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import FooterTop from "./FooterTop";
 
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <div className="px-5 py-4">
+      <FooterTop />
+    </div>
+  );
 }

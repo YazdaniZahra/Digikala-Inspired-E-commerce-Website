@@ -1,5 +1,5 @@
-import CartIcon from "@/assets/icons/CartIcon";
-import PersianSmileLogo from "@/assets/Logo/PersianSmileLogo";
+import CartIcon from "@/components/icons/CartIcon";
+import PersianSmileLogo from "@/components/icons/PersianSmileLogo";
 
 import NavBar from "./NavBar";
 import PromotionBar from "./PromotionBar";
