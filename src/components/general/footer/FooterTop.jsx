@@ -4,7 +4,7 @@ import React from "react";
 
 export default function FooterTop() {
   return (
-    <div className="flex flex-col text-sm ">
+    <div className="flex flex-col text-sm border-b border-grayMid lg:hidden">
       <div className="flex flex-row justify-between border-b border-grayMid py-2">
         <div className="flex flex-row items-center gap-2">
           <div className=" bg-graySoft rounded-full flex size-10 justify-center items-center ">
